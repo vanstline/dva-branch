@@ -1,0 +1,91 @@
+/*
+ * @Author: yangws 
+ * @Date: 2018-11-07 13:48:57 
+ * @Last Modified by: yangws
+ * @Last Modified time: 2018-11-30 17:06:35
+ */
+.home-container {
+  position: relative;
+  height: 100%;
+}
+.home-container .am-navbar-dark {
+  background-color: #000;
+}
+.home-container .am-list-user .am-list-body:before {
+  background-color: #0e7fb7;
+}
+.home-container .user-info-item {
+  padding: 0.8rem;
+  background-color: #0e7fb7;
+  color: #fff;
+}
+.home-container .user-info-item .am-list-content {
+  float: left;
+  padding-right: 0.9rem;
+}
+.home-container .user-info-item .am-list-content .am-icon-md {
+  margin-top: 0.6rem;
+}
+.home-container .user-info-item img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+}
+.home-container .user-info-item .message-bell {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0.9rem 1.5rem;
+}
+.home-container .am-list-item-task .am-list-thumb {
+  margin-top: 0.3rem;
+  margin-right: 0.3rem;
+}
+.home-container .am-list-item-task .am-list-thumb .iconfont {
+  color: #0e7fb7;
+  font-size: 1.3rem;
+}
+.home-container .am-list-item-task .am-list-line {
+  padding-left: 0;
+}
+.home-container .am-list-item-task .am-list-line:after {
+  background-color: #bbb !important;
+}
+.home-container .am-list-item-task-list {
+  padding-bottom: 0.5rem;
+}
+.home-container .am-list-item-task-list .am-flexbox-item {
+  padding: 0.9rem;
+  margin-left: 0;
+}
+.home-container .am-list-item-task-list .am-flexbox-item .am-flexbox-ad {
+  background-color: #0e7fb7;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 0.9rem;
+  padding-top: 0.6rem;
+  font-size: 12px;
+  position: relative;
+}
+.home-container .am-list-item-task-list .am-flexbox-item .am-flexbox-ad .am-badge {
+  line-height: normal;
+  position: absolute;
+  right: 0;
+  top: 0.2rem;
+}
+.home-container .am-list-item-task-list .am-flexbox-item .am-flexbox-ad .iconfont {
+  font-size: 2.7rem;
+}
+.home-container .am-list-item-task-list .am-flexbox-item .ad-receiving {
+  background-color: #009688;
+}
+.home-container .am-list-item-task-list .am-flexbox-item .ad-install {
+  background-color: #553621;
+}
+.home-container .am-tab-bar {
+  height: 3rem;
+  overflow: hidden;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}

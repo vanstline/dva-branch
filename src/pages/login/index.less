@@ -1,0 +1,70 @@
+@color: #eb5604;
+.login-container {
+  position: relative;
+  height: 100%;
+  background-size: 100% 100%;
+  .login-content {
+    position: absolute;
+    top: 15%;
+    left: 0;
+    right: 0;
+    padding: .24rem .144rem;
+    .global-list {
+      padding: 0 .144rem;
+      width: 100%;
+      .am-list-body {
+        .am-input-control {
+          input {
+            font-size: .16rem;
+          }
+        }
+      }
+    }
+    .icon-lg {
+      color: #fff;
+      font-size: .24rem;
+      text-align: center;
+      padding-top: .7rem;
+    }
+    .text-small {
+      font-size: .3rem;
+      text-align: center;
+      color: @color;
+    }
+    .am-button {
+      color: #fff;
+      background: @color;
+    }
+    .am-list-item {
+      padding-right: 0;
+      padding-left: 0;
+      .am-input-extra {
+        max-height: max-content;
+      }
+      .am-input-label {
+        flex-basis: 10%;
+        overflow: unset;
+        margin-right: 0;
+        font-size: 0;
+        .iconfont {
+          color: @color;
+          font-size: .24rem;
+          padding: .08rem 0.09rem;
+        }
+      }
+    }
+    .am-tabs-default-bar {
+      background-color: rgba(255, 255, 255, 0.96);
+      .am-tabs-default-bar-tab-active {
+        color: @color;
+      }
+      .am-tabs-default-bar-underline {
+        border-color: @color;
+      }
+    }
+    .copyright {
+      color: #fff;
+      text-align: center;
+    }
+  }
+}

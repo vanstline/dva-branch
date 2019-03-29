@@ -1,0 +1,103 @@
+/* iphonex 兼容方案
+https://aotu.io/notes/2017/11/27/iphonex/index.html */
+
+html,
+body,
+#root {
+  height: 100%;
+}
+html {
+  background: #fff;
+  font-size: calc(100vw/3.75);
+}
+/* iphonex 安全区域 */
+body {
+  margin: 0 auto;
+  max-width: 8rem;
+  overflow: hidden;
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  /* background: #fff; */
+}
+
+/* iphonex fix元素适配 */
+.fixed {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+  position: fixed;
+  z-index: 10;
+  /* 具体应用位置，通过叠加css确定元素本身样式
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #fff;
+  height: 50px; */
+}
+
+/* 样式覆盖，解决移动端滚动问题，避免容器模拟滚动，都采用body滚动，以及自己封装的滚动容器 */
+/* .am-tab-bar {
+  position: relative;
+  overflow: visible !important;
+}
+.am-tabs {
+  width: 100%;
+  overflow: visible !important;
+}
+.am-tabs-pane-wrap {
+  overflow-y: visible !important;
+}
+.am-tab-bar-item {
+  height: auto !important;
+  padding-bottom: 50px;
+}
+
+.am-tabs-tab-bar-wrap {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+} */
+
+p {
+  margin: 0;
+}
+
+.am-tab-bar-tab-icon .iconfont {
+  font-size: .14rem;
+}
+.ism-no-more {
+  text-align: center;
+  padding: .48rem 0;
+}
+.am-list-item img.material-img {
+  width: .8rem;
+  height: .64rem;
+}
+
+
+.am-tab-bar-bar {
+  height: 0 !important;
+  overflow: hidden;
+}
+
+.clearFix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+
+/* tbs样式覆盖 */
+/* .am-tabs {
+  height: auto !important;
+} */

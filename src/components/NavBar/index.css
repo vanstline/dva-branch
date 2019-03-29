@@ -1,0 +1,25 @@
+.ism-nav-bar-header {
+  height: 45px;
+  background: #0e7fb7;
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 0.2rem;
+}
+.ism-nav-bar-header .am-icon {
+  vertical-align: middle;
+}
+.ism-nav-bar-header > div {
+  flex: 1;
+  text-align: center;
+  font-size: 0.96rem;
+}
+.ism-nav-bar-header > div.ism-nav-bar-header-left {
+  text-align: left;
+  font-size: 0.9rem;
+}
+.ism-nav-bar-header > div.ism-nav-bar-header-right {
+  text-align: right;
+  font-size: 0.9rem;
+}

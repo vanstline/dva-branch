@@ -1,0 +1,64 @@
+.login-container {
+  position: relative;
+  height: 100%;
+  background-size: 100%;
+}
+.login-container .login-content {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  right: 0;
+  padding: 1.5rem 0.9rem;
+}
+.login-container .login-content .global-list {
+  padding: 0 0.9rem;
+  width: 100%;
+}
+.login-container .login-content .global-list .am-list-body .am-input-control input {
+  font-size: 1rem;
+}
+.login-container .login-content .icon-lg {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 5rem;
+}
+.login-container .login-content .text-small {
+  font-size: 6rem;
+  text-align: center;
+  color: #eb5604;
+}
+.login-container .login-content .am-button {
+  color: #fff;
+  background: #eb5604;
+}
+.login-container .login-content .am-list-item {
+  padding-right: 0;
+  padding-left: 0;
+}
+.login-container .login-content .am-list-item .am-input-extra {
+  max-height: max-content;
+}
+.login-container .login-content .am-list-item .am-input-label {
+  flex-basis: 10%;
+  overflow: unset;
+  margin-right: 0;
+}
+.login-container .login-content .am-list-item .am-input-label .iconfont {
+  color: #eb5604;
+  font-size: 1.5rem;
+  padding: 0.3rem 0.5rem;
+}
+.login-container .login-content .am-tabs-default-bar {
+  background-color: rgba(255, 255, 255, 0.96);
+}
+.login-container .login-content .am-tabs-default-bar .am-tabs-default-bar-tab-active {
+  color: #eb5604;
+}
+.login-container .login-content .am-tabs-default-bar .am-tabs-default-bar-underline {
+  border-color: #eb5604;
+}
+.login-container .login-content .copyright {
+  color: #fff;
+  text-align: center;
+}

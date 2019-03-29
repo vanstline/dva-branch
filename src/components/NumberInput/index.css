@@ -1,0 +1,31 @@
+.ism-number-input {
+  padding: 0;
+  min-height: auto;
+}
+.ism-number-input .am-list-line {
+  padding: 0 !important;
+  border: 1px solid #ddd !important;
+  border-radius: 0.3rem;
+  padding-right: 0;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+}
+.ism-number-input .am-list-line .am-input-label {
+  width: auto !important;
+  padding: 0.3rem;
+  margin: 0;
+}
+.ism-number-input .am-list-line .am-input-control {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+.ism-number-input .am-list-line .am-input-control input {
+  text-align: center;
+}
+.ism-number-input .am-list-line .am-input-extra {
+  color: #eb5604;
+  width: auto;
+  padding: 0.3rem;
+  margin: 0;
+}
